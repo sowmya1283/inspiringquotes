@@ -8,30 +8,23 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
 
 /* General Styles */
 
 body {
-    background-color: cornflowerblue;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    background-color: rgb(212, 218, 228);
     font-family: "Merienda", cursive;
-    /* generic project styles */
+    text-align: center;
     color: beige;
-
 }
 
 /*Header color, position and width, box shadow added*/
 header {
-    background-color: rgb(170, 209, 192);
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 3px 3px #313131;
+    background-color: rgb(205, 225, 215);
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    font-size: 2.5em;
 }
 
 /*Removed underline from logo heading*/
@@ -39,19 +32,37 @@ header a {
     text-decoration: none;
 }
 
-/*Added font family for the header*/
 h1 {
-    font-family: "Roboto Mono", monospace;
-    text-align: center;
-    color: inherit;
     text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #252525;
-    font-size: 3.5em;
+    letter-spacing: 2px;
+    color: black;
+}
+
+/* logo styling */
+.logo {
+    height: 70px;
+    padding-right: 5px;
 }
 
 main {
-    background-color: rgb(126, 110, 110);
+    background-color: rgb(221, 190, 190);
     font-family: "Merienda", cursive;
     flex: 1 0 auto;
+    min-height: 100vh;
+}
+
+.quotearea {
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 70px;
+ 
+    height: 65vh;
+    max-height: 450px;
+
+    border: solid 2px;
+    color:black;
+
+}
+.tagline {
+    color:black;
 }

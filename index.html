@@ -8,7 +8,7 @@
     <!--Google fonts added-->
     <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
     <title>Inspiring Quotes</title>
-<link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
@@ -16,30 +16,32 @@
     <!--Quotes heading-->
     <header>
         <a href="index.html">
-        <h1 id ="logo" class="quoteheading"><img class="logo" src="assets/images/logobulb.webp">Inspiring Quotes</h1>
+            <h1 id="logo" class="quoteheading"><img class="logo" src="assets/images/logobulb.webp">Inspiring Quotes</h1>
         </a>
     </header>
     <!--Quotes Generation Area-->
-    <main>
-        <!--Different quote category-->
+
+    <!--Different quote category-->
+    <div class="quotearea">
+   
         <div class="quotecategory">
-            <button class="category">Leadership</button>
-            <button class="category">Encouraging</button>
-            <button class="category">Gratitude</button>
-            <button class="category">About Change</button>
+            <button class="category" data-category="leadership">Leadership</button>
+            <button class="category" data-category="encouraging">Encouraging</button>
+            <button class="category" data-category="gratitude">Gratitude</button>
+            <button class="category" data-category="about">About Change</button>
         </div>
-        <!--Quote generation area-->
-        <div class="quotebox">
-            <p class="quotedisplayed">Get inspired!, Show Gratitude!, Embrace Change!</p>
-            <p class="src">-Anonymous</p>
-
+        <div class="tagline">
+            <span id="taglinetext">Get inspired!, Show Gratitude!, Embrace Change!</span>
         </div>
+    </div>
+    <!--Quote generation area-->
+    <div class="quotebox">
+    <!--  <p class="quotedisplayed"></p> -->
 
-        <div class="generatequotebutton">
+    </div>
 
-        </div>
-    </main>
-    
+    <div class=""></div>
+    <div id="quote"></div>
     <script src="assets/js/script.js"></script>
     <!--Font awesomekits-->
 
