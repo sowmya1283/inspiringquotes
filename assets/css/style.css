@@ -14,10 +14,23 @@
 
 body {
     background: #bbc6fa;
-    background-color: rgb(212, 218, 228);
     font-family: "Merienda", cursive;
     text-align: center;
     color: beige;
+}
+/*quote box is placed at the center*/
+.quote-box {
+    
+    background: #fff;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.15);
 }
 
 /*Header color, position and width, box shadow added*/
@@ -45,25 +58,3 @@ h1 {
     padding-right: 5px;
 }
 
-main {
-    background-color: rgb(221, 190, 190);
-    font-family: "Merienda", cursive;
-    flex: 1 0 auto;
-    min-height: 100vh;
-}
-
-.quotearea {
-    box-sizing: border-box;
-    align-items: center;
-    margin-top: 70px;
- 
-    height: 65vh;
-    max-height: 450px;
-
-    border: solid 2px;
-    color:black;
-
-}
-.tagline {
-    color:black;
-}
