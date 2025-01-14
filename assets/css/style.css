@@ -32,8 +32,9 @@ body {
 
 /*Increased the font size of the quote box heading */
 .quotebox h2{
-    font-size: 200px;
+    font-size: 32px;
     margin-bottom: 40px;
+    position: relative;
 }
 /* */
 .quotebox h2::after{
