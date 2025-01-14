@@ -33,13 +33,13 @@ body {
     box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.15);
 }
 
-/*Increased the font size of the quote box heading */
+/* Increased the font size of the quote box heading */
 .quotebox h2{
     font-size: 32px;
     margin-bottom: 40px;
     position: relative;
 }
-/* */
+/* Addeed quotebox in the center of the webpage (trying to add the horizontal line to the heading of the quotebox) */
 .quotebox h2::after{
     content: '';
     width:75px;
@@ -51,14 +51,34 @@ body {
     left: 50%;
     transform: translateX(-50%); 
 
-}
 
+/* Increased the quotebox size */
 .quotebox blockquote{
     font-size: 26px;
     min-height: 110px;
 }
 
+/* Added single quote to the beginning and end of the quote */
 .quotebox blockquote::before, .quotebox blockquote::after{
     content: '"';
+}
+
+/*Trying o display author name to right side*/
+.quotebox span{
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+
+}
+.quotebox span::before;{
+    content: '';
+    width: 20px;
+    height:2px;
+    background: rgb(23, 124, 229);
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    
 }
 
