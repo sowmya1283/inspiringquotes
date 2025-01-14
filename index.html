@@ -33,9 +33,19 @@
         </div>
 
     </div>
+    <script>
+    const api_url= "https://api.quotable.io/random";
 
-
-    <script src="assets/js/script.js"></script>
+    async function getquote(url){
+    
+        const response=await fetch(url);
+        var data =await response.json();
+        console.log(data);
+    }
+    
+    getquote(api_url);
+</script>
+   <!-- <script src="assets/js/script.js"></script> -->
     <!--Font awesomekits-->
 
     <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
