@@ -81,13 +81,15 @@ body {
     top: 50%;
     left: -30px;
 }
-
+/* Adding button div properties */
 .quotebox div{
     width: 100%;
     margin-top: 50px;
     display: flex;
     justify-content: center;
 }
+/* adding color and dimentions for the buttons */
+
 .quotebox button{
     background: rgb(23, 124, 229);
     color: #fff;
