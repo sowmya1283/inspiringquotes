@@ -39,7 +39,7 @@ body {
     margin-bottom: 40px;
     position: relative;
 }
-/* Addeed quotebox in the center of the webpage (trying to add the horizontal line to the heading of the quotebox- not working) */
+/* Addeed quotebox in the center of the webpage (trying to add the horizontal line to the heading to the quotebox heading- not working) */
 .quotebox h2::after{
     content: '';
     width:75px;
@@ -71,13 +71,33 @@ body {
     position: relative;
 
 }
+/* putting a line before the quthor - not working */
 .quotebox span::before {
     content: '';
     width: 20px;
-    height:2px;
+    height: 2px;
     background: rgb(23, 124, 229);
     position: absolute;
     top: 50%;
     left: -30px;
 }
 
+.quotebox div{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.quotebox button{
+    background: rgb(23, 124, 229);
+    color: #fff;
+    border-radius:  25px;
+    border: 1px solid rgb(23, 124, 229);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+}
