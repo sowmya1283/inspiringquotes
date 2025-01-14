@@ -18,7 +18,7 @@ body {
 
 /*quote box is placed at the center*/
 .quotebox{
-    background: #673333;
+    background: #fff;
     width: 700px;
     position: absolute;
     top: 50%;
@@ -32,7 +32,7 @@ body {
 
 /*Increased the font size of the quote box heading */
 .quotebox h2{
-    font-size: 2px;
+    font-size: 200px;
     margin-bottom: 40px;
 }
 /* */
