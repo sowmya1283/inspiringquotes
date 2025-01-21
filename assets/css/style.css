@@ -45,25 +45,25 @@ body {
     width:75px;
     height:3px;
     border-radius: 3px;
-    background: rgb|(23, 124, 229);
+    background: rgb(23, 124, 229);
     position: absolute;
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%); 
 
-
+}
 /* Increased the quotebox size */
 .quotebox blockquote{
     font-size: 26px;
     min-height: 110px;
 }
     
-/* Added single quote to the beginning and end of the quote  -- was working but, now its not working*/
+/* Added single quote to the beginning and end of the quote  */
 .quotebox blockquote::before, .quotebox blockquote::after{
     content: '"';
 }
 
-/*Trying o display author name to right side - not working */
+/*Trying o display author name to right side */
 .quotebox span{
     display: block;
     margin-top: 10px;
@@ -71,7 +71,7 @@ body {
     position: relative;
 
 }
-/* putting a line before the quthor - not working */
+/* putting a line before the quthor */
 .quotebox span::before {
     content: '';
     width: 20px;

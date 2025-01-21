@@ -25,27 +25,17 @@
     <div class="quotebox">
 
         <h2>Inspiring quote for the day!</h2>
-        <blockquote>Loading...</blockquote>
-        <span>Loading...</span>
+        <blockquote id="quote">Loading...</blockquote>
+        <span id="author">Loading...</span>
         <div>
             <button>New Quote</button>
         
         </div>
 
     </div>
-    <script>
-    const api_url= "https://api.quotable.io/random";
+    
 
-    async function getquote(url){
-    
-        const response=await fetch(url);
-        var data =await response.json();
-        console.log(data);
-    }
-    
-    getquote(api_url);
-</script>
-   <!-- <script src="assets/js/script.js"></script> -->
+   <script src="assets/js/script.js"></script> 
     <!--Font awesomekits-->
 
     <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
