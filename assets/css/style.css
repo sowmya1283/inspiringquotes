@@ -26,6 +26,14 @@ header {
 header a {
     text-decoration: none;
 }
+
+/* Header is changed from lower case to upper case */
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+}
+
 /* General Styles */
 body {
     background: #bbc6fa;
