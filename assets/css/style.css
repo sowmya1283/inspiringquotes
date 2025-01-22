@@ -6,17 +6,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Playwrite+BE+VLG:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 /* Asterick wildcard selector to override default styles added by the browser*/
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "playfair" "italic";
+    font-family: "playfair""italic";
 
 }
 
 /*Header color, position and width, box shadow added*/
 header {
-    background-color: rgb(214, 223, 218);
+    background-color: rgb(121, 132, 144);
     font-family: "Roboto Mono", monospace;
     text-align: center;
     font-size: 1.0em;
@@ -32,24 +32,26 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: black;
-    
+
 }
 
 /* logo styling */
 .logo {
     height: 70px;
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 
-/* General Styles */
+/* General Styles, added background image */
 body {
-    background: #bbc6fa;
-}
 
+    background-image: url('/assets/images/bkgimage.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /*quote box is placed at the center*/
-.quotebox{
-    background: #fff;
+.quotebox {
+    background: #ecf5e9;
     width: 700px;
     position: absolute;
     top: 50%;
@@ -62,43 +64,47 @@ body {
 }
 
 /* Increased the font size of the quote box heading */
-.quotebox h2{
+.quotebox h2 {
     font-size: 32px;
     margin-bottom: 40px;
     position: relative;
 }
+
 /* Addeed quotebox in the center of the webpage (trying to add the horizontal line to the heading to the quotebox heading- not working) */
-.quotebox h2::after{
+.quotebox h2::after {
     content: '';
-    width:75px;
-    height:3px;
+    width: 75px;
+    height: 3px;
     border-radius: 3px;
     background: rgb(23, 124, 229);
     position: absolute;
     bottom: -10px;
     left: 50%;
-    transform: translateX(-50%); 
+    transform: translateX(-50%);
 
 }
+
 /* Increased the quotebox size */
-.quotebox blockquote{
+.quotebox blockquote {
     font-size: 26px;
     min-height: 110px;
 }
-    
+
 /* Added single quote to the beginning and end of the quote  */
-.quotebox blockquote::before, .quotebox blockquote::after{
+.quotebox blockquote::before,
+.quotebox blockquote::after {
     content: '"';
 }
 
 /*Trying o display author name to right side */
-.quotebox span{
+.quotebox span {
     display: block;
     margin-top: 10px;
     float: right;
     position: relative;
 
 }
+
 /* putting a line before the quthor */
 .quotebox span::before {
     content: '';
@@ -109,19 +115,21 @@ body {
     top: 50%;
     left: -30px;
 }
+
 /* Adding button div properties */
-.quotebox div{
+.quotebox div {
     width: 100%;
     margin-top: 50px;
     display: flex;
     justify-content: center;
 }
+
 /* adding color and dimentions for the buttons */
 
-.quotebox button{
+.quotebox button {
     background: rgb(23, 124, 229);
     color: #fff;
-    border-radius:  25px;
+    border-radius: 25px;
     border: 1px solid rgb(23, 124, 229);
     width: 150px;
     height: 50px;
