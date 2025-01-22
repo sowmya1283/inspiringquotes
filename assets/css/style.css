@@ -18,7 +18,7 @@
 header {
     background-color: rgb(214, 223, 218);
     font-family: "Roboto Mono", monospace;
-    text-align: left;
+    text-align: center;
     font-size: 1.0em;
 }
 
@@ -32,7 +32,15 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: black;
+    
 }
+
+/* logo styling */
+.logo {
+    height: 70px;
+    padding-right: 10px;
+}
+
 
 /* General Styles */
 body {
