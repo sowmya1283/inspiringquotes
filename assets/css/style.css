@@ -16,7 +16,7 @@
 
 /*Header color, position and width, box shadow added*/
 header {
-    background-color: rgb(121, 132, 144);
+    background-color: rgba(147, 160, 173, 0.3);
     font-family: "Roboto Mono", monospace;
     text-align: center;
     font-size: 1.0em;
@@ -51,7 +51,7 @@ body {
 }
 /*quote box is placed at the center*/
 .quotebox {
-    background: #ecf5e9;
+    background: #e6e7e5;
     width: 700px;
     position: absolute;
     top: 50%;
@@ -87,7 +87,6 @@ body {
 /* Increased the quotebox size */
 .quotebox blockquote {
     font-size: 26px;
-    min-height: 110px;
 }
 
 /* Added single quote to the beginning and end of the quote  */
@@ -133,9 +132,9 @@ body {
     border: 1px solid rgb(23, 124, 229);
     width: 150px;
     height: 50px;
-    display: flex;
     align-content: center;
     justify-content: center;
     margin: 5px;
     cursor: pointer;
+    font-size: 16px;
 }
