@@ -13,7 +13,7 @@
 
 /*Header color, position and width, box shadow added*/
 header {
-    background-color: rgba(147, 160, 173, 0.3);
+    background-color: rgba(116, 121, 126, 0.3);
     font-family: "Roboto Mono", monospace;
     text-align: center;
     font-size: 1.0em;
@@ -46,6 +46,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /*quote box is placed at the center*/
 .quotebox {
     background: #e6e7e5;
