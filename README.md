@@ -1,12 +1,10 @@
 
 
-# Handmade Hobbies
+# Inspiring Quotes
 
 ## I. Site Overview
 
-A website to showcase and sell handmade craft projects for selling or even blogging or to combine both. As you know handicrafts is the manual labour and they are very small-scale medium to generate products rather than using automated machines. A phenomenon known as the “handmade effect” occurs when buyers show a preference for these goods over the ones that are largely produced.
-
-A person’s values and personality are best expressed through handmade products, which always have a large value in the market. They showcase the benefits of “uniqueness” and "love. “This website is designed for any fellow hobbyists, or any customers who are interested to buy or even learn. If someone who share the same passion and love for handmade craft items then this website is for perfect for you. Colourful crochet items, small mirror or mosaic art and also quilling art are added in this website.
+An "Inspiring Quotes" website is typically a platform that curates and shares motivational, uplifting, and thought-provoking quotes from a variety of sources, such as famous historical figures, philosophers, writers, and contemporary influencers. These websites often serve as sources of daily encouragement, personal growth, and emotional upliftment for users. Here's an overview of the key elements you might find in such a websitee.
 
 ![Hero image](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/homepageinalldevices.png)
 
