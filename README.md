@@ -18,21 +18,21 @@ In this section, you should go over the different parts of your project, and des
 
 ![Logo](media/love_maths_logo.png)
 
-- __The Game Area__
+- __The Quote Box__
 
   - This section will allow the user to play the maths game. The user will be able to easily see icons for addition,  subtraction, multiplication, and division games.
   - The user will be able to select the type of maths game they will be playing by clicking on the different icons. 
 
 ![Game](media/love_maths_icons.png)
 
-- __The Question section__
+- __The Quote__
 
   - The question section is where the user will be able to see the elementary arithmetic question to answer as part of the game. The user will be able answer the questions in the answer box provide
   - The user will be able to submit their answer and a pop-up will make it known to the user if they answered correctly. 
 
 ![Question](media/love_maths_question.png)
 
-- __The Score Area__
+- __The Author__
 
   - This section will allow the user to see exactly how many correct and incorrect answers they have provided. 
 
