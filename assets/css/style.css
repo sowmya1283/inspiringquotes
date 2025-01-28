@@ -139,7 +139,9 @@ body {
     width: 20px;
     margin-right: 10px;
 }
-.quotebox button: :nth-child(2){
+
+/*tweet button is not chaning its properties*/
+.quotebox button :nth-child(2){
     background: transparent;
-    color: #333;
+    color : #333;
 }
