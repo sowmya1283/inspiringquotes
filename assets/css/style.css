@@ -8,7 +8,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "playfair""italic";
-
 }
 
 /*Header color, position and width, box shadow added*/
@@ -134,4 +133,13 @@ body {
     margin: 5px;
     cursor: pointer;
     font-size: 16px;
+}
+
+.quotebox button img{
+    width: 20px;
+    margin-right: 10px;
+}
+.quotebox button: :nth-child(2){
+    background: transparent;
+    color: #333;
 }
