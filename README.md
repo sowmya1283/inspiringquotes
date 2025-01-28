@@ -12,7 +12,7 @@ In this section, you should go over the different parts of your project, and des
 
 ### Existing Features
 
-- __The Love Maths Logo and Heading__
+- __The Inspriring Quotes Logo and Heading__
 
   - Featured at the top of the page, the Love Maths logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
 
