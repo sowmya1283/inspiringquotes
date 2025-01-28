@@ -45,12 +45,12 @@ body {
     background-image: url('/assets/images/bkgimage.webp');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 /*quote box is placed at the center*/
 .quotebox {
     background: #e6e7e5;
-    width: 700px;
     position: absolute;
     top: 50%;
     left: 50%;

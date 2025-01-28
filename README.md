@@ -1,328 +1,125 @@
-
-
 # Inspiring Quotes
 
-## I. Site Overview
+In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
 
-An "Inspiring Quotes" website is typically a platform that curates and shares motivational, uplifting, and thought-provoking quotes from a variety of sources, such as famous historical figures, philosophers, writers, and contemporary influencers. These websites often serve as sources of daily encouragement, personal growth, and emotional upliftment for users. Here's an overview of the key elements you might find in such a websitee.
+For example, Love Maths is a site that hopes to demonstrate how pure JavaScript works in a real-world context. The site will be targeted toward people who not only love to implement more advanced JavaScript concepts but also maths. Love Maths is a fully responsive JavaScript maths game that will allow users to add, subtract, multiply and divide numbers. 
 
-![Hero image](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/homepageinalldevices.png)
+![Responsice Mockup](media/love_maths_mockup.png)
 
-## Table of contents:
+## Features 
 
-## I. Site Overview
-## II. Planning stage
- ### - Target Audiences
- ### - User Stories
- ### - Site Aims
- ### - How Is This Will Be Achieved:
- ### - Wireframes
- ### - Colour Scheme
-## III. Current Features Common to all pages
-### - Header Element:
-   ####   **_Title_**
-   ####   **_Logo_**
-   ####   **_Navigation Bar_**
-   ####   **_Hero Image_**
-### - Footer
-### - Typography  
-## IV. Individual Page Content features
-### - Home Page or Welcome Home Page
-### - Crazy for Crochet Content Page
-### - Mosaic Art Content Page
-### - Quilling Craft Content Page
-### - Sign Up Page
-## V. Future-Enhancements
-## VI. Testing Phase
-## VII. Deployment
-## VIII. Credits
-### - Honourable mentions
-### - General reference
-### - Content
-### - Media
+In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
+### Existing Features
 
-## II. Planning stage
+- __The Love Maths Logo and Heading__
 
-### Target Audiences:
+  - Featured at the top of the page, the Love Maths logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
 
-- Users who share the passion for handmade items.
-- Users with a general interest in crochet, mosaic art and quilling art.
-- Users who want to order or buy products mentioned on the website.
-- Users who have seen the products and would like to learn how to make them.
+![Logo](media/love_maths_logo.png)
 
-### User Stories:
+- __The Game Area__
 
-- As a hobbyist, I want to see the contents of the webpage to get inspiration.
-- As a hobbyist, I want to know what are the benefits of handmade hobbies.
-- As a hobbyist, I want to easily navigate through the website to see what craft categories are available.
-- As a user, I want to view photos in different craft categories.
-- As a user, I want to submit form for signing up.
-- As a user, I want to meet up people with similar interest
+  - This section will allow the user to play the maths game. The user will be able to easily see icons for addition,  subtraction, multiplication, and division games.
+  - The user will be able to select the type of maths game they will be playing by clicking on the different icons. 
 
-### Site Aims:
+![Game](media/love_maths_icons.png)
 
-- To inspire hobby enthusiasts.
-- To educate the user regarding benefits of handmade hobbies.
-- To offer the user a chance to connect to the community with similar interest in person.
-- To offer the user a way to contact the site author for further info or discussion.
-- To offer the user a platform for meetup events.
+- __The Question section__
 
-### How This Will Be Achieved:
+  - The question section is where the user will be able to see the elementary arithmetic question to answer as part of the game. The user will be able answer the questions in the answer box provide
+  - The user will be able to submit their answer and a pop-up will make it known to the user if they answered correctly. 
 
-- The home page provides the user with a summary of the handcrafted items.
-- The information like what and why regarding handmade hobbies.
-- The information related to benefits of handmade crafts.
-Gallery of the different handmade items to attract the users.
-- The site will provide information on the meetups available to engage with the community.
-- The option for users to connect with the author via sign up link.
+![Question](media/love_maths_question.png)
 
-### Wireframes:
+- __The Score Area__
 
-Wireframes were added to this project to keep my thoughts structured and to avoid any discrepancies from the actual website design. Links to the five targeted pages on desktop and mobile platforms are provided below.
+  - This section will allow the user to see exactly how many correct and incorrect answers they have provided. 
 
-**_Mobile Wireframes:_**
+![score](media/love_maths_answer.png)
 
-[Welcome Home Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Welcomepage_Mobile.png)
+For some/all of your features, you may choose to reference the specific project files that implement them.
 
-[Crazy For Crochet Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Crochetgallerypage_Mobile.png)
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-[Mosaic Art Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Mosaic_art_gallery_mobile.png)
+### Features Left to Implement
 
-[Quilling Craft Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/QuillingGallery_Mobile.png)
+- Another feature idea
 
-[Sign-Up Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/SignupMobile.png)
+## Testing 
 
-**_Desktop wireframes:_**
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-[Welcome Home Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/WelcomePagedesktop.png)
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-[Crazy For Crochet Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Crochet%20Page_desktop.png)
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-[Mosaic Art Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Maosaic%20Art%20Page_desktop.png)
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-[Quilling Craft Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/QullingArt_page_desktop.png)
 
-[Sign-Up Page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/wireframes/Signuppage_desktop.png)
+### Validator Testing 
 
-In order to improve the user experience, wireframes were modified a changed a bit. Please find the below changes.
+- HTML
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-maths%2F)
+- CSS
+    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-maths%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- JavaScript
+    - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
+      - The following metrics were returned: 
+      - There are 11 functions in this file.
+      - Function with the largest signature takes 2 arguments, while the median is 0.
+      - Largest function has 10 statements in it, while the median is 3.
+      - The most complex function has a cyclomatic complexity value of 4 while the median is 2.
 
-Though some texts were added to the Crazy For Crochet, Mosaic Art and Quilling Craft pages initially, they have been removed and might be added in upcoming deployments.
-Initial ‘Header’ had the same design across all the pages. Later only logo has been added in the home page and rest of the pages have same title.
-Header section of the welcome page has new logo. (Old logo has been replaced)
+### Unfixed Bugs
 
-### Colour Scheme:
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
-When making my selection, I wanted to go with a color palette that was stylish. For this reason, I went with a light blue navigation bar and accent colors of dim light orange and grey. To gauge the contrast scores, I developed a colour grid using the colour https://contrast-grid.eightshapes.com/ . I was able to guarantee that all text stayed visible and that everyone could visit the website by using this grid.
+## Deployment
 
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-![Color grid used](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/%20colorgrid.png)
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-## III. Current Features Common to all pages
+The live link can be found here - https://code-institute-org.github.io/love-maths/
 
-### Header Element
 
-The header element stays fixed at the top of the page when the user first scrolls through (or scrolls up and down). A Code Institute alumnus pointed out that the sticky header will improve user experience and adhere to prevailing trends. The header itself contains the below elements.
+## Credits 
 
-**_Title:_**
+In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
-![Title Screenshot](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/title.png)
+You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
-- The title serves to state the name of the Website.
-- The title is present in Crazy For Crochet, Mosaic Art, Quilling Craft and Sign Up pages.
-- The title is not present in the ‘Welcome Home’ Page. Logo with the text same as Handmade Hobbies is presented to the user to appease.
-- Title in all other pages also serves as a navigation link to the home page “Welcome Home!” as per the well-established convention expected by the user.
+### Content 
 
-**_Logo:_**
+- The text for the Home page was taken from Wikipedia Article A
+- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-- The logos are created to the captivate user’s attention and to portray the website intentions. Colourful ai generated image of heart is presented in ‘Welcome Home!’ page. (The other pages have Title with the same text as mentioned in the logo of the home page.)
+### Media
 
-- Logo on mobile devices ensured the title stays as big as possible on a smaller screen, improving the user experience.
+- The photos used on the home and sign up page are from This Open Source site
+- The images used for the gallery page were taken from this other open source site
 
-![logo](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/logo.png)
 
-**_Navigation Bar:_**
+Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
-- The navigation bar appears on all five pages (including the form Sign Up page) with a white background.
-- It contains links to the Welcome Home!, Crazy For Crochet, Mosaic Art , Quilling Craft and Sign Up page to allow easy navigation around the website.
-- The below image shows the user’s current page.
+## Other General Project Advice
 
-![Nav Bar](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/navbar.png)
+Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
 
-- Hover-over feature, which turns the menu option the same as the active page when users hover their cursor over the navbar heading.
+- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
+  - Make sure to keep the messages in the imperative mood 
 
+- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
+  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
 
-![Hover over highlight](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/HoveroverNavbar.png)
+- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
+  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
+  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
+  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
-### Hero Image
-
-- I have included a hero image in the ‘Welcome Home!’ page only.
-- All other pages are similar to gallery pages and have nav links.
-- And also a sign-up form also doesn’t have any logo image.
-- Hero image screenshot can be found in the Home page section further in the document.
-
-### Footer
-
-- The footer includes direct links to all the social media platform with the little icons
-- Initially social media platforms were having the placeholder texts then later replaced with icons. These icons are very small and take-up very little space.
-- Still Handmade Hobbies accounts on all those Social Media platform is pending to be developed in the upcoming phases. These links then will updated to connect to the respective pages.
-- These icons were imported from font awesome using Javascript at the bottom of the page.
-- A statement stating that all photographs on the website are the property of Handmade Hobbies and that the site is only meant for educational reasons was included. I added this after chatting on Slack with the Code Institute for suggestions.
-
-![Footer](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/footer.png)
-
-### Typography
-
-Throughout the page, there are three fonts used:
-
-- Merienda- as the website intended to be creative. It has a font-family of Dancing style making the heading attractive.
-- Default fall back font-family has been given as sans-serif.
-- For all other headings including the navbar default font is used.
-- All fonts were sourced from Google fonts, as stated in the credits.
-
-## IV. Individual Page Content features
-
-### Home Page Or ‘Welcome Home!’ Page:
-
-**_Hero-Image:_**
-
-Very striking and colourful hero image for a website that displays a range of artistic crafts. A variety of colourful supplies and equipment, including yarn, coloured pencils, beads, fabric and paintbrushes are used in the scenario. There’s a hand-drawn sign in the foreground that says “Handmaade Hobbies.” As you can see, the image has two ‘AA’’s in the ‘HANDMAADE’ just to be more creative.
-The background image is configured to cover with the position centre, thus the image appears fantastic on all screen resolution.
-
-
-![Hero Image](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/hero.png)
-
-
-Inside the hero image, an overlay with the craft categories are listed in this web site. This is added because to create an customer attention or to make a positive impact to a new visitor on the website. This text is made readable with a transparent background making it easier to notice. The position of this overlay is made absolute so that it can be placed on top of the Hero image.
-
-**_What? , Why? and Benefits! Section:_**
-
-The main purpose of the website is to inspire, convey information or benefits of handmade craft items , connect with like-minded hobbyists , to reach out to the author for any collaborative work and etc. Therefore the section below the hero image is divided into three parts with detail information about ‘What is’ handmade hobbies is all about? ‘Why’ Handmade hobbies? and ‘Benefits’ of Handmade hobbies for any individual.
-
-As you can see the images below, they are having a title information as mentioned above.
-
-![What are handmade hobbies](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/what.png)
-
-![Why handmade hobbies](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/why.png)
-
-![Benefits of handmade hobbies](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/benefits.png)
-
-The above section is also made responsive based on the Mobile, Tablet and Laptop version. Enough padding is added to make the content displayed neatly within the div for larger screens. Whereas padding has been reduced to make sure that this content is more readable on mobile devices.
-
-**_Circular image:_**
-
-Circular image has been added to match the handmade hobbies content which is mentioned above and is responsive according to the screen resolution.
-
-The circular image conveys the message that what users will be doing when they see handmade hobbies. The image has seven sections where people are involved in crochet, knitting, moulding clay, painting etc.
-
-![Added circular screenshot](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/circularimage.png)
-
-**_Meetup Times:_**
-
-The last section of our welcome home page is our ‘Meetup times’ section. A website’s “Meetup” section can greatly increase consumer interaction, offer social and educational benefits, and also will help to create a solid, dedicated client base. It may provide lively and engaging environment for their clients by providing a range of activities and making sure that communication is simple.
-
-This section provides visitors about all the necessary information about our timings of meetup events happening over the complete week. Based on the information provided on the website user can decide which meetup session they want to join.
-this meetup events tell information like time, day of the meetup and what will be the agenda of the meetup.
-
-![Meetup time screenshot](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/meetup_times.png)
-
-## All the other page contents(Similar to Gallery)
-
-All the pages apart from welcome home page in the website are similar like ‘Gallery’ pages. They have different images files loaded and are responsive to the screen sizes. On mobile screens, these images are loaded in single column. As the screen size increases the column are spread-out. To help the visually impaired users on the scenario of failed image loading, an alt text has been added to each image. In-case of image loading fails, the alt text displays. Columns will increase according to the screen size. (eg., for mobile single column, for tablet 3 columns and laptops four columns)
-
-### Crazy For Crochet Page:
-
-- A wide range of creative possibilities are offered by Crochet. Some examples are clothing, baby items, home decor items, accessories, seasonal items etc.
-- This crochet gallery page has some beautiful images to inspire the hobbyists.
-- The gallery page has only image content, no text content has been added to this.
-
-![Crazy for crochet gallery page ](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/Crazyforcrochetpage.png)
-
-### Mosaic Art Page:
-
-- Mosaic art is a form of decorative art mainly from different cultural background like Greece, Roman and Islamic traditions. Created using small piece of materials such as stone, glass pieces, ceramic or tiles etc.
-- This Mosaic gallery page has some beautiful images to inspire the hobbyists.
-- The gallery page has only image content, no text content has been added to this.
-
-![Mosaic art page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/MosaicArtPage.png)
-
-### Quilling Craft Page:
-
-- Quilling is a form of paper art which is made using strips of paper. These stripes are rolled, glued to create different shapes.
-- The Quilling Craft gallery page has some beautiful images to inspire the hobbyists.
-- The gallery page has only image content, no text content has been added to this.
-
-![Quilling craft page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/QuillingCraft.png)
-
-### Sign Up page content
-
-- The purpose of this page is to simulate the process of submitting a form.
-- A background image with light golden colour which is in contrast for the form colour.
-- A hand holding heart font has been added before the ‘Let’s get you signed up!’ text. This icon is from font-awesome.
-Adjusted the image and the form properly by using margin-top. The large gap between the nav and the form were reduced using this property.
-- All the radio buttons were not aligned properly at the initial stage and they have been made to spread-out with justify content property.
-
-![Sign up page](https://github.com/sowmya1283/handmadehobbies/blob/main/docs/screenshots/Signuppage.png)
-
-## V. Future-Enhancements
-
-- The future intention of the site would be to serve as a website specifically to grow visitors and involve more hobbyists to sign up to the website. To add more content related to new designs, tutorials, different type of materials used. If possible enhance the website to create a buy and sell platform at later stages.
-- At first, the purpose would remain to inspire people and spread awareness about benefits of hand-crafted items. However, There would be additional content as mentioned above.
-- Video tutorials of all the handmade craft items.
-- How to choose materials to use for different kind of handmade craft items.
-- Handmade hobbies account creation on different social media platforms and linking them to the website.
-- Bringing users designs on the webpage.
-- Improvising the media content format on the different gallery pages.
-- I would also make the contact form fully function with a post request and have a database to collate data for the mailing list.
-
-## VI. Testing Phase
-
-I have a second document named [TESTING_PHASE.md](https://github.com/sowmya1283/handmadehobbies/blob/main/TESTING_PHASE.md) that contains information about testing both during and after development.
-
-## VII. Deployment
-
-I deployed the page on GitHub pages via the following procedure: -
-
-- From the project’s repository, go to the Settings tab.
-- From the left-hand menu, select the Pages tab.
-- Under the Source section, select the Main branch from the drop-down menu and click Save.
-- A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
-- You can find the live site via the following URL- https://sowmya1283.github.io/handmadehobbies/
-
-## VIII. Credits
-
-### Honourable mentions:
-
-This project could not have happened without the support of the following people listed in no particular order:
-
-- [Richard Wells](https://github.com/D0nni387) - Code Institute Mentor who has gone above and beyond what was expected of him to help me get this far in the course.
-- Lewis Dillon: From Code institute For the longest and most comprehensive peer review that I received via our stand-up calls. His feedback was truly amazing
-- Tulio Minini: One of my friend from code institute has been helping me in reviewing the website and provided some great comments.
-- The code institute Slack community as a whole who tested and supported throughout.
-- And the biggest thanks goes to my daughter and my mother who inspires me and encourages me to keep learning.
-- Code institute tutor support are awesome, they always help in fixing any workspace issues or launching website issues has been very helpful or even tutoring was very helpful.
-
-### General reference:
-
-- The Code Institute’s “Love Running” code-along initiative had an impact on the project. Even though I made every effort to diverge, there might still be some code similarities.
-- Throughout the project, I used stack overflow, google, and W3schools as general references.
-
-### Content:
-
-- All content was written by myself except some used from chatGPT: https://chatgpt.com/
-- Some of the handcraft text contents were inspired by wikipedia: https://www.wikipedia.org/
-- Icons in the footer were taken from Font Awesome: https://fontawesome.com/
-- Header, text content fonts imported from Google Fonts: https://fonts.google.com/
-
-### Media:
-
-1. Handmade Hobbies logo is generated and modified from - https://ideogram.ai/ and Canva respectively.
-2. Some Quilling Craft gallery images are taken from - https://www.freepik.com/
-3. Some Quilling Craft gallery images are taken from - https://stock.adobe.com/
-4. Some Mosaic Art gallery images are taken from - https://stock.adobe.com/
-5. Some Crazy For Crochet gallery images are generated from - https://ideogram.ai/
-6. Some Crazy For Crochet gallery images are generated from - https://stock.adobe.com/
-7. Some Crazy For Crochet gallery images are generated from - https://www.freepik.com/
-8. Screenshot under README.md section titled “site overview” was created using - https://ui.dev/amiresponsive
-9. Some of the images are from google images - https://www.google.com/imghp?hl=en-GB&tab=ri&authuser=0&ogbl
-10. Some of the images are resized using - https://www.tinypng.com
+Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
