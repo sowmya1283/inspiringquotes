@@ -22,7 +22,9 @@ All the features of the website is detailed below. Value of the fetaures are exp
 
 - __The Quote Box__
 
-  - This section will allow the user to play the maths game. The user will be able to easily see icons for addition,  subtraction, multiplication, and division games.
+  - The quotebox is the area where quotes are displayed. User will be clearly able to see since its light color on the background image.
+  the heading in the quote box clearly says to the user that it is Inspiring quote of the day!
+  
   - The user will be able to select the type of maths game they will be playing by clicking on the different icons. 
 
 ![Game](media/love_maths_icons.png)
