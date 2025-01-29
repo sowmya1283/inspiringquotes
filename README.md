@@ -18,7 +18,7 @@ All the features of the website is detailed below. Value of the fetaures are exp
   - Inspiring Quotes logo and Heading is at the top of the page. It has been made easy to view from user perspective. The heading color is made dark on the light background with a logo which enables user to view it easily.
   
 
-![[Logo](https://)][def2]
+![[HeaderLogo](https://github.com/sowmya1283/inspiringquotes/blob/main/assets/images/header_logo.png)
 
 - __The Quote Box__
 
@@ -27,7 +27,7 @@ All the features of the website is detailed below. Value of the fetaures are exp
   
   - The user will be able to select the type of maths game they will be playing by clicking on the different icons. 
 
-![Game](media/love_maths_icons.png)
+![Thequotebox](https://github.com/sowmya1283/inspiringquotes/blob/main/assets/images/quotebox.png)
 
 - __The Quote__
 
