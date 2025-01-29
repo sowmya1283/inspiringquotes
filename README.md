@@ -31,7 +31,7 @@ All the features of the website is detailed below. Value of the fetaures are exp
 
 - __The Quote__
 
-  - The actual quote is displaed within the quotebox. It displayed in the two quotation marks. the author name is also fetched and displayed.
+  - The actual quote is displaed within the quotebox. It displayed within the two quotation marks. 
   
 ![The Quote](https://github.com/sowmya1283/inspiringquotes/blob/main/assets/images/quote.png)
 
