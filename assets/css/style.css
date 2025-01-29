@@ -41,7 +41,8 @@ h1 {
 /* General Styles, added background image */
 body {
 
-    background-image: url('../images/bkgimage.webp');
+    background-image: url("https://github.com/sowmya1283/inspiringquotes/blob/main/assets/images/bkgimage.webp");
+    /*('../images/bkgimage.webp');*/
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
