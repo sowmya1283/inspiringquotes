@@ -44,7 +44,8 @@ All the features of the website is detailed below. Value of the fetaures are exp
 
 ## Testing 
 
-Through testing has been conducted. Some bugs like CSS styling was not responsive according to the Mobile and tablet screens.
+Through testing has been conducted. Some bugs like CSS styling was not responsive according to the Mobile and tablet screens. The issue has been fixed with the help of student support and understanding why the quotebox was big and removed the width property for the quotebox area.
+Another bug found is background image was not covering for the smaller screens. With the help of student supprt added a height element with 100vh to the body.
 
 
 ### Validator Testing 
