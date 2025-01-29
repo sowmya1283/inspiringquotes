@@ -1,20 +1,22 @@
 # Inspiring Quotes
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+The purpose of inspiring quotes is to motivate, uplift, and guide individuals in their personal or professional journeys. Any individual will be going through lot of life challenging situations which can be hard on their personal and mental health. Inspirational quotes can serve as reminders of our potential, provide wisdom, and offer comfort during tough times. 
 
-For example, Love Maths is a site that hopes to demonstrate how pure JavaScript works in a real-world context. The site will be targeted toward people who not only love to implement more advanced JavaScript concepts but also maths. Love Maths is a fully responsive JavaScript maths game that will allow users to add, subtract, multiply and divide numbers. 
+An inspiring quotes website is typically a platform designed to share motivational, uplifting, and thought-provoking quotes from famous individuals, philosophers, authors, or even anonymous sources. The primary goal of such websites is to provide users with daily doses of inspiration to help them overcome challenges, spark creativity, boost positivity, and encourage personal growth. Here's an overview of what an inspiring quotes website might include:
 
-![Responsice Mockup](media/love_maths_mockup.png)
+![Responsice Mockup][Background image]
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+All the features of the website is detailed below. Value of the fetaures are explained. How it provides users a easy access to the quotes by giving options to check a new quote on the website and share it on social media platform.
+
 
 ### Existing Features
 
 - __The Inspriring Quotes Logo and Heading__
 
-  - Featured at the top of the page, the Love Maths logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
+  - Inspiring Quotes logo and Heading is at the top of the page. It has been made easy to view from user perspective. The heading color is made dark on the light background with a logo which enables user to view it easily.
+  
 
 ![Logo](media/love_maths_logo.png)
 
@@ -27,7 +29,9 @@ In this section, you should go over the different parts of your project, and des
 
 - __The Quote__
 
-  - The question section is where the user will be able to see the elementary arithmetic question to answer as part of the game. The user will be able answer the questions in the answer box provide
+  - The 
+  
+  question section is where the user will be able to see the elementary arithmetic question to answer as part of the game. The user will be able answer the questions in the answer box provide
   - The user will be able to submit their answer and a pop-up will make it known to the user if they answered correctly. 
 
 ![Question](media/love_maths_question.png)
@@ -123,3 +127,6 @@ Below you will find a couple of extra tips that may be helpful when completing y
   - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
 Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+
+
+[def]: media/love_maths_mockup.png
