@@ -41,7 +41,7 @@ h1 {
 /* General Styles, added background image */
 body {
 
-    background : ('../images/bkgimage.webp');
+    background-image : ('assets/images/bkgimage.webp'); 
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
